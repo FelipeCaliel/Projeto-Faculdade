@@ -51,13 +51,6 @@ int main(){
      
     while (token != NULL) {
         
-      /*if (p == 0)   {
-	    campo codigo
-        vetor[i].codigo = atoi(vetor);  ignorar o campo codigo, pois é o "i"
-        p++;
-		
-	  }*/ 
-        
 		if (p == 0) {
       	strcpy(vetor[i].descricao,token);
         p++;
@@ -198,7 +191,16 @@ int main(){
   			printf("Voce selecionou a opcao 2 - Alterar Produto\n\n");
 			printf("Informe o codigo do produto que deseja alterar:");
   			scanf("%d",&pos);
-						
+  			
+  			while (pos > 0 && pos >= i  ){
+    				 	
+               	printf("\nCodigo invalido, informe novamente:\n\n");
+               	
+               	printf("Informe o codigo do produto que deseja alterar:");
+  				scanf("%d",&pos);
+  				system ("cls");
+               } 
+			system ("cls");			
   			printf("\nDESCRICAO: %s ", vetor[pos].descricao);
   			
   			printf("| OPCAO: ",vetor[pos].sexo);
@@ -373,6 +375,16 @@ int main(){
 			printf("Informe o codigo do produto que excluir:");
   			scanf("%d",&pos);
   			
+  			while (pos > 0 && pos >= i  ){
+    				 	
+               	printf("\nCodigo invalido, informe novamente:\n\n");
+               	
+               	printf("Informe o codigo do produto que deseja localizar:");
+  				scanf("%d",&pos);
+  				system ("cls");
+               }         
+  			system ("cls");
+  			
   			printf("\nDESCRICAO: %s", vetor[pos].descricao);
   			
   			printf("| OPCAO: ",&vetor[pos].sexo);
@@ -408,8 +420,7 @@ int main(){
 	  		}if (vetor[pos].tamanho == 6){
 	  			printf("UNICO");
 		}
-			
-			
+				
 			printf("| QUANTIDADE: %d| VALOR: R$ %.2f|\n",vetor[pos].quantidade,vetor[pos].valor);
   			
   			printf("\nDeseja realmente excluir o produto? sim(s) ou nao(n): ");
@@ -433,17 +444,17 @@ int main(){
   			printf("Voce selecionou a opcao 4 - Localizar Produto\n\n");
   			printf("Informe o codigo do produto que deseja localizar:");
   			scanf("%d",&pos);
+  		
   			
-  			
-  			
-  			while (pos != vetor[i].codigo ){
+  			while (pos > 0 && pos >= i  ){
     				 	
                	printf("\nCodigo invalido, informe novamente:\n\n");
                	
                	printf("Informe o codigo do produto que deseja localizar:");
   				scanf("%d",&pos);
-               }
-  			
+  				system ("cls");
+               }         
+  			system ("cls");
   			printf("\nDESCRICAO: %s", vetor[pos].descricao);
   			
   			printf("| OPCAO: ",&vetor[pos].sexo);
@@ -600,9 +611,6 @@ int main(){
         	
 				}
 			}
-			/*t = s*x;
-			printf("\n|================================================================================================================|");
-			printf("\n|				VALOR TOTAL DE TODOS OS PRODUTOS EM ESTOQUE			| R$ %.2f	 |",t);*/
 			printf("\n|================================================================================================================|\n");	 
   			system("pause");
   			
