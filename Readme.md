@@ -16,7 +16,7 @@ Após preencher todas as informações solicitadas o sistema ainda irá questionar s
 
 2 - Alterar Produtos: Na segunda opção deve-se informar um codigo valido do produto em especifico que deseja realizar a alteração e o sistema apresentará as informações do produto selecionado e logo em seguida os campos para ser realizado a alteração.
 
-3 - Exluir Produtos: Na terceira opção é solicitado o codigo do produto a qual deseja excluir, para uma maior segurança do cliente o programa irá zerar a quantidade do produto no estoque e manter o produto existente no sistema até que o programa seja encerrado, caso o usuario deseje recuperar o produto ele pode apenas voltar a opção alterior e alterar a quantidade de estoque, tornando o produto ainda valido.
+3 - Excluir Produtos: Na terceira opção é solicitado o codigo do produto a qual deseja excluir, para uma maior segurança do cliente o programa irá zerar a quantidade do produto no estoque e manter o produto existente no sistema até que o programa seja encerrado, caso o usuario deseje recuperar o produto ele pode apenas voltar a opção alterior e alterar a quantidade de estoque, tornando o produto ainda valido.
 
 4 - Localizar Produto: Nessa quarta opção o usuario pode localizar o produto pelo codigo, podendo então utilizar a opção para a confirmação dos dados e validação do produto para uma eventual alteração ou até exclusão do mesmo.
 
