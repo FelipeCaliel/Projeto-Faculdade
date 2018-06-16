@@ -2,7 +2,7 @@
 #include <string.h>
 
 /*
-Autor: Felipe Caliel RA: 1888/18-1
+Autor: Felipe Caliel do Santos Silva, RA: 1888/18-1
  */
  
 void menu() {
@@ -10,12 +10,12 @@ void menu() {
 	system ("cls");
   	printf("\n  === LOJA DE ROUPAS > ESTOQUE ===\n\n");
  	printf("|============== MENU ==============|\n");
- 	printf("|                                  |\n"); 
+ 	printf("|                                  |\n");
  	printf("| 1 - CADASTRAR PRODUTOS           |\n");
  	printf("| 2 - ALTERAR PRODUTOS             |\n");
 	printf("| 3 - EXCLUIR PRODUTO              |\n");
 	printf("| 4 - LOCALIZAR PRODUTO            |\n");
-	printf("| 5 - LISTAR TODOS PRODUTOS        |\n");
+	printf("| 5 - LISTAR PRODUTOS              |\n");
 	printf("| 6 - RELATORIO ESTOQUE            |\n");
 	printf("| 7 - SAIR                         |\n");
 	printf("|                                  |\n");
@@ -35,7 +35,7 @@ int main(){
 	
   FILE *pont_arq;
   char texto_str[250];
-  char* token;
+  char* token;	
   
   struct produto vetor[200];
   int i = 0,opcao;
