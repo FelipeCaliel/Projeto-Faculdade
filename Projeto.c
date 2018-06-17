@@ -97,8 +97,9 @@ int main(){
     	
     				printf("CODIGO: %d\n", i);
     	
+    				fflush(stdin);
     				printf("DESCRICAO:");
-    				scanf("%s",&vetor[i].descricao);
+    				gets(vetor[i].descricao);
     	
     				printf("OPCAO: 1- MASCULINO | 2- FEMININO | 3- UNISSEX: ");
     				scanf("%d",&vetor[i].sexo);
@@ -145,7 +146,7 @@ int main(){
     				printf("CODIGO: %d\n", i);
     	
     				printf("DESCRICAO:");
-    				scanf("%s",&vetor[i].descricao);
+    				gets(vetor[i].descricao);
     	
     				printf("OPCAO: 1- MASCULINO | 2- FEMININO | 3- UNISSEX: ");
     				scanf("%d",&vetor[i].sexo);
