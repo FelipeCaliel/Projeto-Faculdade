@@ -1,35 +1,33 @@
-INSTRU«’ES DE FUNCIONAMENTO DO PROGRAMA
+INSTRU√á√ïES DE FUNCIONAMENTO DO PROGRAMA > Projeto P2 - 1¬∫ Semestre 2018
 
-Programa de controle de estoque, escrito todo em linguagem C, oferecendo recursos, como cadastro, alteraÁ„o, exclus„o, listagem de produtos e ainda relatorio de estoque para maior facilidade no controle das informaÁıes.
+Programa de controle de estoque, escrito completamente em linguagem C, oferecendo recursos, como cadastro, altera√ß√£o, exclus√£o, listagem de produtos e ainda relat√≥rio de estoque para maior facilidade no controle das informa√ß√µes.
 
-Ao executar o programa È apresentado o Menu, contendo as funcionalidades do sistema, para a seleÁ„o da opÁ„o desejada deve ser inserido o numero correspondente e para enviar a informaÁ„o È utilizado a tecla "enter" valido para todo o programa. Segue explicaÁ„o de funcionamento de cada opÁ„o existente no menu:
+Ao executar o programa √© apresentado o Menu, contendo as funcionalidades do sistema, para a sele√ß√£o da op√ß√£o desejada deve ser inserido o n√∫mero correspondente, e para enviar a informa√ß√£o √© utilizado a tecla "ENTER" v√°lido para todo o programa. Segue abaixo explica√ß√£o de funcionamento de cada op√ß√£o existente no menu:
 
-1 - Cadastrar Produtos: Na primeira opÁ„o podemos realizar o cadastro da mercadoria, o qual de inicio ja apresentara ao usuario o codigo do produto, realizando assim o preenchimento automatico para maior facilidade e autonomia, logo apÛs ser· solicitado ao usuario: 
+1 - CADASTRAR PRODUTOS: Na primeira op√ß√£o podemos realizar o cadastro da mercadoria, o qual de in√≠cio j√° apresentar√° ao usu√°rio o c√≥digo do produto, realizando assim o preenchimento autom√°tico para maior facilidade e autonomia, logo ap√≥s ser√° solicitado ao usu√°rio: 
 
-- DescriÁ„o do produto, se referindo ao nome ou marca do mesmo;
-- OpÁ„o, sendo necessario escolher entre os generos disponiveis: Masculino, Feminino ou ainda Unissex;
-- Tamanho, oferece ao usuario a possibilidade de selecionar os tamanhos: PP, pequeno, medio, grande, GG e tamanho unico;
-- Quantidade, onde deve ser inserido a quantidade de produtos que est„o dando entrada no sistema;
-- Valor, deve-se informar o valor do produto em quantidade unitaria;
+- Descri√ß√£o do produto, se referindo ao nome ou marca do mesmo;
+- Op√ß√£o, sendo necess√°rio escolher entre os g√™neros dispon√≠veis: Masculino, Feminino ou ainda Unissex;
+- Tamanho, oferece ao usu√°rio a possibilidade de selecionar os tamanhos: PP, pequeno, m√©dio, grande, GG e tamanho √∫nico;
+- Quantidade, onde deve ser inserido a quantidade de produtos que est√£o dando entrada no sistema;
+- Valor, deve-se informar o valor do produto em quantidade unit√°ria;
 
-ApÛs preencher todas as informaÁıes solicitadas o sistema ainda ir· questionar se o usuario deseja continuar cadastrando produtos ou n„o.
+Ap√≥s preencher todas as informa√ß√µes solicitadas o sistema ainda ir√° questionar se o usu√°rio deseja continuar cadastrando produtos ou n√£o.
 
-2 - Alterar Produtos: Na segunda opÁ„o deve-se informar um codigo valido do produto em especifico que deseja realizar a alteraÁ„o e o sistema apresentar· as informaÁıes do produto selecionado e logo em seguida os campos para ser realizado a alteraÁ„o.
+2 - ALTERAR PRODUTOS: Na segunda op√ß√£o deve-se informar um c√≥digo valido do produto em espec√≠fico que deseja realizar a altera√ß√£o e o sistema apresentar√° as informa√ß√µes do produto selecionado e logo em seguida os campos para ser realizado a altera√ß√£o.
 
-3 - Excluir Produtos: Na terceira opÁ„o È solicitado o codigo do produto a qual deseja excluir, para uma maior seguranÁa do cliente o programa ir· zerar a quantidade do produto no estoque e manter o produto existente no sistema atÈ que o programa seja encerrado, caso o usuario deseje recuperar o produto ele pode apenas voltar a opÁ„o alterior e alterar a quantidade de estoque, tornando o produto ainda valido.
+3 - EXCLUIR PRODUTOS: Na terceira op√ß√£o √© solicitado o c√≥digo do produto a qual deseja excluir, para uma maior seguran√ßa do cliente o programa ir√° zerar a quantidade do produto no estoque e manter o produto existente no sistema at√© que o programa seja encerrado, caso o usu√°rio deseje recuperar o produto ele pode apenas voltar a op√ß√£o anterior e alterar a quantidade de estoque, tornando o produto ainda valido.
 
-4 - Localizar Produto: Nessa quarta opÁ„o o usuario pode localizar o produto pelo codigo, podendo ent„o utilizar a opÁ„o para a confirmaÁ„o dos dados e validaÁ„o do produto para uma eventual alteraÁ„o ou atÈ exclus„o do mesmo.
+4 - LOCALIZAR PRODUTO: Nessa quarta op√ß√£o o usu√°rio pode localizar o produto pelo c√≥digo, podendo ent√£o utilizar a op√ß√£o para a confirma√ß√£o dos dados e valida√ß√£o do produto para uma eventual altera√ß√£o ou at√© exclus√£o do mesmo.
 
-5 - Listar Produtos: Na quinta opÁ„o È apresentado uma lista contendo todos os produtos cadastrados no sistema, sendo ele com quantidade zerada ou n„o, mostrando ainda ao usuario o codigo de cada produto para ser usado como referencia de quantidade de itens j· registrados no sistema.
+5 - LISTAR PRODUTOS: Na quinta op√ß√£o √© apresentado uma lista contendo todos os produtos cadastrados no sistema, sendo ele com quantidade zerada ou n√£o, mostrando ainda ao usu√°rio o c√≥digo de cada produto para ser usado como refer√™ncia de quantidade de itens j√° registrados no sistema.
 
-6 - Relatorio Estoque: Nessa sexta opÁ„o temos o relatorio de estoque dos produtos validos no sistema, apresentando ao usuario o respectivo produto e o valor total de cada item em especifico cadastrado no sistema.
+6 - RELAT√ìRIO ESTOQUE: Nessa sexta op√ß√£o temos o relat√≥rio de estoque dos produtos validos no sistema, apresentando ao usu√°rio o respectivo produto e o valor total de cada item em espec√≠fico cadastrado no sistema.
 
-7 - Sair: Na setima e ultima opÁ„o È onde se finaliza o programa e realiza as gravaÁıes de todas as operaÁıes que foram efetuadas no sistema, informaÁıes ao qual ser„o salvas no arquivo em formato ".txt" com o nome "dados" ja anexado no diretorio.
+7 ‚ÄìSALVAR E SAIR: Na s√©tima e √∫ltima op√ß√£o √© onde se finaliza o programa e realiza as grava√ß√µes de todas as opera√ß√µes que foram efetuadas no sistema, informa√ß√µes ao qual ser√£o salvas no arquivo em formato ".txt" com o nome "dados" j√° anexado no diret√≥rio.
 
-O programa foi desenvolvido com o proposito de ser utilizado como nota em avaliaÁ„o academica, que visa demonstrar na pratica os conhecimentos obtidos em aula de "Algoritmos e Logica de ProgramaÁ„o" referente ao 1∞ Semestre do curso "Tecnologia em Analise e Desenvolvimento de Sistemas"!!
+O programa foi desenvolvido com o prop√≥sito de ser utilizado como nota em avalia√ß√£o acad√™mica, que visa demonstrar na pratica os conhecimentos obtidos em aula de "Algoritmos e L√≥gica de Programa√ß√£o" referente ao 1¬∞ Semestre do curso "Tecnologia em An√°lise e Desenvolvimento de Sistemas"!!
 
-Autor: Felipe Caliel dos Santos Silva, RA: 1888/18-1
-
-"Mais vale uma critica construtiva do que cem coment·rios in˙teis."
+- AUTOR: Felipe Caliel dos Santos Silva, RA: 1888/18-1
 
 

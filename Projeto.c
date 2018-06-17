@@ -17,7 +17,7 @@ void menu() {
 	printf("| 4 - LOCALIZAR PRODUTO            |\n");
 	printf("| 5 - LISTAR PRODUTOS              |\n");
 	printf("| 6 - RELATORIO ESTOQUE            |\n");
-	printf("| 7 - SAIR                         |\n");
+	printf("| 7 - SALVAR E SAIR                |\n");
 	printf("|                                  |\n");
 	printf("|==================================|\n");
 	printf("\nInforme a opcao desejada -> ");
